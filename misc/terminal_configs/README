@@ -1,0 +1,30 @@
+﻿I've come across a few terminals in my day...
+
+GNOME-TERMINAL
+  The files here are configuration dumps for gnome-terminal.
+
+  Apparently, gnome-terminal can use more than one backend for settings
+  management. For example, Arch Linux uses dconf and Ubuntu uses gconf. To ensure
+  that I have a working config on whichever backend my gnome-terminal is using,
+  I've included these files.
+
+  Below, I list schema path and load command for each backend. schema path is the
+  schema to which the dump will be applied. You should check if yours matches
+  (e.g. with dconf-editor or gconf-editor). load command is the command you should
+  use to apply the configuration dumps.
+
+    DCONF 
+      schema path:  /org/gnome/terminal/legacy/profiles:/
+      load command: cat dconf_dump | dconf load /org/gnome/terminal/legacy/profiles:/
+
+    GCONF
+      schema path: /apps/gnome-terminal/profiles/Default/
+      load command: gconftool-2 --load gconf_dump
+
+TERMINAL.APP
+  Import hybrid.terminal from Settings->(Gear button)->Import
+
+ITERM2
+  Place com.googlecode.iterm2.plist in ~/Library/Preferences/. This seems like
+  a binary file, so it could very well become obsolete through version
+  updates.

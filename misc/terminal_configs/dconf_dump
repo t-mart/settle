@@ -1,0 +1,18 @@
+[/]
+list=['51c0a7c6-48d1-4352-97c4-c81cb2f69aef']
+default='51c0a7c6-48d1-4352-97c4-c81cb2f69aef'
+
+[:51c0a7c6-48d1-4352-97c4-c81cb2f69aef]
+foreground-color='rgb(197,200,198)'
+visible-name='hybrida'
+palette=['rgb(40,42,46)', 'rgb(165,66,66)', 'rgb(140,148,64)', 'rgb(222,147,95)', 'rgb(95,129,157)', 'rgb(133,103,143)', 'rgb(94,141,135)', 'rgb(112,120,128)', 'rgb(55,59,65)', 'rgb(204,102,102)', 'rgb(181,189,104)', 'rgb(240,198,116)', 'rgb(129,162,190)', 'rgb(178,148,187)', 'rgb(138,190,183)', 'rgb(197,200,198)']
+title='Terminal'
+cursor-shape='block'
+use-system-font=false
+use-theme-colors=false
+font='Droid Sans Mono 9'
+allow-bold=true
+bold-color-same-as-fg=true
+bold-color='#000000000000'
+background-color='rgb(29,31,33)'
+audible-bell=false
